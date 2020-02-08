@@ -1,0 +1,23 @@
+[
+  {
+    "Title": "About Me",
+    "Tooltip": "This is About Page",
+    "TooltipPlacement": "top",
+    "HTMLName" : "aboutMe.html",
+    "Color": "Yellow"
+  },
+  {
+    "Title": "My Clients",
+    "Tooltip": "This is Page About My Clients",
+    "TooltipPlacement": "right",
+    "HTMLName" : "myClients.html",
+    "Color": "blue"
+  },
+  {
+    "Title": "Contact Me",
+    "Tooltip": "This is The Contact Page",
+    "TooltipPlacement": "bottom",
+    "HTMLName" : "contactMe.html",
+    "Color": "rgb(226, 13, 13)"
+  }
+]

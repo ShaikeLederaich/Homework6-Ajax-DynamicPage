@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <title>Ajax Homework</title>
+  </head>
+  <body>
+    <div class="bg">
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+          <div class="container my-3">
+            <span class="navbar-brand">SL Dynamic Pages</span>
+            <ul id="myNavList" class="nav  justify-content-end m-auto">
+              <button
+                type="button"
+                id="home"
+                class="nav-item btn btn-secondary"
+                data-toggle="tooltip"
+                data-placement="left"
+                title="This is The Home Page"
+              >
+                <a class="nav-link" href="#index.html">
+                  Home
+                </a>
+              </button>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div id="postDynamicHTML" class="col m-auto">
+              <h2
+                id="homeHeadline"
+                class="display-3 text-center text-white font-weight-bold"
+              >
+                Welcome To
+                <br />
+                <span class="display-1 font-weight-bold">
+                  SL Dynamic Pages
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="myFooter" class="card-footer text-center">
+        Copyright &copy; <span id="spn1"></span>
+        SL Dynamic Pages
+      </footer>
+    </div>
+    <!-- End bg -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="JS/main.js"></script>
+  </body>
+</html>

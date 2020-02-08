@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik|Work+Sans:800&display=swap');
+
+.bg {
+  /* The image used */
+  background-image: url('./image/pexels-photo-719597.jpeg');
+
+  /* Full height */
+  min-height: 100vh;
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav.navbar > .container > span {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.5rem;
+  text-shadow: 0 0 20px rgb(255, 67, 224);
+  padding: 10px;
+}
+nav.navbar > .container > span::first-letter {
+  font-size: 4rem;
+}
+section > .container > .row {
+  margin-top: 10px;
+}
+#myFooter {
+  background-color: rgba(22, 6, 59, 0.61);
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}
+#myFooter > #spn1 {
+  /* color: rgb(8, 8, 59); */
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+#postDynamicHTML {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.35);
+  position: relative;
+}
+#postDynamicHTML > h2 {
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 6px rgb(187, 206, 14);
+  padding-bottom: 10px;
+}
+#postDynamicHTML > h2#homeHeadline::first-line {
+  color: black;
+  font-style: italic;
+}
+#postDynamicHTML > h2#homeHeadline > span {
+  font-family: 'Work Sans', sans-serif;
+  text-shadow: 0 0 20px rgb(255, 67, 224);
+}
+#postDynamicHTML > h2#headline {
+  color: rgb(96, 240, 185);
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 3px 3px rgb(15, 24, 80);
+  font-size: 3.5rem;
+}
+#postDynamicHTML > h2#headline::first-letter {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 5rem;
+}
+#postDynamicHTML > imgBox {
+  float: left;
+}
+#postDynamicHTML > p > img {
+  border-radius: 30px;
+  margin: 10px 8px;
+  float: left;
+}
+#postDynamicHTML > p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#postDynamicHTML > p::first-letter {
+  font-size: 3rem;
+}
+#postDynamicHTML > p::first-line {
+  color: rgb(47, 252, 241);
+  letter-spacing: 4px;
+  font-style: italic;
+}
